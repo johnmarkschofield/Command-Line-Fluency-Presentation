@@ -8,10 +8,15 @@
 
 # Command-Line Literacy
 # Or, how to avoid *Repetitive Strain Injury*
+# This presentation:
+https://github.com/johnmarkschofield/Command-Line-Fluency-Presentation
+
 # ![Cat Typing](typing_cat.jpg "Cat Typing")*I'm typing so much, I must be good at this!*
+% Lots of people learn the command-line and seem to think that the more they're typing, the better they're doing.
+
+
 # Do more with less.
 # Tell me your favorite tricks! jms@schof.org
-This presentation: http://schof.org/command_line_literacy
 # Big+Python+Markdown
 # Big
 # *Presentation software* for busy busy hackers

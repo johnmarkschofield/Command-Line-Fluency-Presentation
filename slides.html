@@ -103,21 +103,86 @@ div.imageText {
 
     go(cur);
 };
-</script></head><body><div>Command-Line Literacy</div>
-<div>Or, how to avoid <em>Repetitive Strain Injury</em></div>
-<div><img src="typing_cat.jpg" alt="Cat Typing" title="Cat Typing" /><em>I'm typing so much, I must be good at this!</em></div>
+</script></head><body><div>Command-Line Fluency:</div>
+<div>How to avoid <em>Repetitive Strain Injury</em></div>
+<div>(How to use the BASH command-line with a minimum of keystrokes and a maximum of speed.)</div>
+<div>This presentation: <a href="http://schof.org/clfp">schof.org/clfp</a></div>
+<div>By John Mark Schofield</div>
+<div><a href="http://schof.org">schof.org</a></div>
+<div><a href="mailto:jms@schof.org">jms@schof.org</a></div>
+<div><a href="https://twitter.com/schof">@schof</a></div>
+<div>I solve problems.</div>
+<div>"If you've got server problems, I feel bad for you son. I've got 99 problems but BASH ain't one."</div>
+<div>Let's do this.</div>
+<div>Everybody starts out the same when they learn the command line.</div>
+<div><em>I'm typing so much, I must be good at this!</em></div>
+<div><img src="typing_cat.jpg" alt="Cat Typing" title="Cat Typing" /></div>
+<div><img src="typing_cat.jpg" alt="Cat Typing" title="Cat Typing" /> Not so fast, kitty!</div>
 <div>Do more with less.</div>
-<div>Tell me your favorite tricks! jms@schof.orgThis presentation: http://schof.org/command<em>line</em>literacy</div>
-<div>Big+Python+Markdown</div>
-<div>Big</div>
-<div><em>Presentation software</em> for busy busy hackers</div>
-<div>+text</div>
-<div>+markdown formatting</div>
-<div>as <em>big</em> as it can be</div>
-<div>no config</div>
-<div><em>1.5k</em></div>
-<div><img src="http://farm3.static.flickr.com/2506/5757000880_509440308e_z.jpg" alt="Images" /> images too</div>
-<div>JS+CSS <a href="https://github.com/tmcw/big">github.com/ tmcw/ big</a></div>
-<div>Big.py</div>
-<div>Helper script to generate slides from markdown</div>
-<div>PY+MD <a href="https://github.com/harperreed/bigpy">github.com/ harperreed/ bigpy</a></div>
+<div>Get these shortcuts in your muscle memory.</div>
+<div>Build habits using just one of these.</div>
+<div>Then, once you're using that regularly, add another one.</div>
+<div>Don't try to start doing all of these at once.</div>
+<div><img src="juggling_fail.jpg" alt="Juggling Fail" title="Juggling Fail" /></div>
+<div>These work in BASH on Linux or OS X. Use a different shell? Some of these <em>may</em> work.</div>
+<div>The biggies: (Get that low-hanging fruit.)</div>
+<div><img src="low_hanging_fruit.jpeg" alt="Low Hanging Fruit" /></div>
+<div><em>up-arrow</em></div>
+<div>up-arrow is your friend.</div>
+<div>Repeats the previous command.</div>
+<div>Hit it as many times as you like to cycle back through commands.</div>
+<div>Down arrow works too.</div>
+<div>Edit a command, then hit <em>ENTER</em> to run it.</div>
+<div>If you're all the way back in history and need to get back to the most recent, use</div>
+<div><em>SHIFT-ALT-></em></div>
+<div>If you use a Mac desktop, you'll need to click the checkbox in your Terminal preferences for "use alt as meta key."</div>
+<div>If you use Linux as your desktop, you're probably not listening because you're recompiling your kernel right now.</div>
+<div>Hey now. I kid because I love.</div>
+<div><em>Tab</em></div>
+<div><em>Tab</em> is your <em>other</em> friend.</div>
+<div>Use <em>Tab</em> to autocomplete paths, filenames, or anything else BASH can figure out how to autocomplete.</div>
+<div>Hit <em>Tab</em> twice to see all the possibilities, if more than one matches what you've typed.</div>
+<div>Seriously, I stand behind people yelling "<em>Up arrow! Up arrow! Tab! Tab!</em>" when I see them needlessly re-type stuff.</div>
+<div>(I don't have many friends.)</div>
+<div><em>CTRL&nbsp;-&nbsp;r</em></div>
+<div>Searches through your history</div>
+<div>Very powerful</div>
+<div><em>CTRL-r</em> then start typing. It will display the most recent match.</div>
+<div><em>CTRL-r</em> again to display the next match.</div>
+<div>Then edit the command, or hit <em>ENTER</em> to run it.<!---Tell the Fog Creek Remote Support Story.--></div>
+<div>Daaaaaaaaaamn.</div>
+<div><em>!!</em></div>
+<div><em>!!</em> repeats the previous command.</div>
+<div>So does up-arrow. So this is useless.</div>
+<div><img src="or_is_it.jpg" alt="Or is it?" title="Or is it?" />Or is it...</div>
+<div>How many times have you done this?    rm&nbsp;/var/cache/foobar</div>
+<div><img src="sad_clown.jpg" alt="Sad clown" title="Sad clown" /> Permission Denied.</div>
+<div><img src="sad_clown.jpg" alt="Sad clown" title="Sad clown" /> You should have typed "sudo".</div>
+<div>What do you do?</div>
+<div><em>sudo&nbsp;!!</em></div>
+<div>Hell yeah!</div>
+<div>Changing Directories</div>
+<div><em>cd ~</em> switches to your home directory. BORING. Everyone knows that.</div>
+<div><em>cd -</em> switches to the last directory you were in. Excited yet?</div>
+<div>You SSH'd to a server, but don't remember which one?</div>
+<div><em>history&nbsp;|&nbsp;grep&nbsp;ssh</em></div>
+<div>Use aliases for common commands. (Put them in your .bashrc or .profile in your ~.)</div>
+<div>alias ll='ls -Flah'</div>
+<div>Editing the current command.</div>
+<div>Backspace is <em>not</em> your friend! Backspace thinks you wear funny shoes!</div>
+<div><em>CTRL-a</em> to go to the beginning of the line</div>
+<div><em>CTRL-e</em> to go to the end of the line</div>
+<div><em>CTRL-w</em> to kill the word before the cursor</div>
+<div><em>CTRL-k</em> to clear the line after the cursor</div>
+<div><em>CTRL-u</em> to clear the line before the cursor</div>
+<div><em>ALT-f</em> and <em>ALT-b</em> move forward and back one word</div>
+<div><em>CTRL+SHIFT+-</em> (CTRL-Underscore): Freaking <em>undo</em>!</div>
+<div><em>CTRL-xx</em> to toggle between the current cursor position and the start of the line.</div>
+<div>These are based on <em>Emacs</em>. If you want you can use Vi keybindings: <em>set -o vi</em>. Bring back correct (cough) keybindings with <em>set -o emacs</em>.</div>
+<div><em>find</em> is your friend.</div>
+<div>(Actually, I guess I have a lot of friends.)</div>
+<div>Want to remove all .svn directories from a tree?</div>
+<div><em>find . -type d -name ".svn" -exec echo rm -rf {} \;</em></div>
+<div>Remove the "echo" when you get serious.</div>
+<div>Know a trick I missed? Send it to me! <em>jms@schof.org</em></div>
+<div>Thank you!</div>

@@ -17,8 +17,8 @@
 # [schof.org](http://schof.org)
 # [jms@schof.org](mailto:jms@schof.org)
 # [@schof](https://twitter.com/schof)
-# I solve problems.
-# "If you've got server problems, I feel bad for you son. I've got 99 problems but BASH ain't one."
+
+# Shameless Plug: I work at [Citrusbyte](http://citrusbyte.com). It's a great place to work, and we're always looking for great people.
 
 # Let's do this.
 

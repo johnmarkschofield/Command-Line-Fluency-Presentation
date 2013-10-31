@@ -10,20 +10,21 @@
 # How to avoid *Repetitive Strain Injury*
 # (How to use the BASH command-line with a minimum of keystrokes and a maximum of speed.)
 
-# This presentation: [schof.org/clfp](http://schof.org/clfp)
+# This presentation: *schof.org/clfp*
 
-# By John Mark Schofield
+# By *John Mark Schofield*
+# Shameless Plug: I work at *Citrusbyte*. It's a great place to work, and we're always looking for great people.
 
-# [schof.org](http://schof.org)
-# [jms@schof.org](mailto:jms@schof.org)
-# [@schof](https://twitter.com/schof)
+# *schof.org*
+# *jms@schof.org*
+# @*schof*
 
-# Shameless Plug: I work at [Citrusbyte](http://citrusbyte.com). It's a great place to work, and we're always looking for great people.
 
 # Let's do this.
 
 # Everybody starts out the same when they learn the command line.
-# *I'm typing so much, I must be good at this!*
+# *I'm typing so much because I'm having fun.*
+# *I'm typing so much because I don't know any better.*
 
 # ![Cat Typing](typing_cat.jpg "Cat Typing")
 # ![Cat Typing](typing_cat.jpg "Cat Typing") Not so fast, kitty!
@@ -48,11 +49,7 @@
 # Hit it as many times as you like to cycle back through commands.
 # Down arrow works too.
 # Edit a command, then hit *ENTER* to run it.
-# If you're all the way back in history and need to get back to the most recent, use
-# *SHIFT-ALT->*
-# If you use a Mac desktop, you'll need to click the checkbox in your Terminal preferences for "use alt as meta key."
-# If you use Linux as your desktop, you're probably not listening because you're recompiling your kernel right now.
-# Hey now. I kid because I love.
+
 
 # *Tab*
 # *Tab* is your *other* friend.
@@ -68,15 +65,12 @@
 # *CTRL-r* then start typing. It will display the most recent match.
 # *CTRL-r* again to display the next match.
 # Then edit the command, or hit *ENTER* to run it.
-
-<!---
-Tell the Fog Creek Remote Support Story.
--->
-
 # Daaaaaaaaaamn.
-
-
-
+# If you're all the way back in history and need to get back to the most recent, use
+# *SHIFT-ALT->*
+# If you use a Mac desktop, you'll need to click the checkbox in your Terminal preferences for "use alt as meta key."
+# If you use Linux as your desktop, you're probably not listening because you're recompiling your kernel right now.
+# Hey now. I kid because I love.
 
 
 # *!!*
@@ -84,7 +78,7 @@ Tell the Fog Creek Remote Support Story.
 # So does up-arrow. So this is useless.
 # ![Or is it?](or_is_it.jpg "Or is it?")Or is it...
 # How many times have you done this?
-    rm&nbsp;/var/cache/foobar
+    *rm&nbsp;/var/cache/foobar*
 # ![Sad clown](sad_clown.jpg "Sad clown") Permission Denied.
 # ![Sad clown](sad_clown.jpg "Sad clown") You should have typed "sudo".
 # What do you do?
